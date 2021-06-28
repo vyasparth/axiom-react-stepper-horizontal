@@ -8,7 +8,7 @@ npm install react-stepper-horizontal --save
 Then just add `import Stepper from 'react-stepper-horizontal';` into your file.
 
 ## Screenshot
-<img src="https://raw.githubusercontent.com/mu29/react-stepper/master/example/example.png" width="600" />
+<img src="https://github.com/vyasparth/axiom-react-stepper-horizontal/blob/main/example/example.png" width="600" />
 
 ## Usage
 ```
@@ -20,7 +20,7 @@ render() {
   );
 }
 ```
-See full example [here](https://github.com/mu29/react-stepper/blob/master/example/example.js)
+See full example [here](https://github.com/vyasparth/axiom-react-stepper-horizontal/blob/main/example/example.js)
 
 ## API
 
