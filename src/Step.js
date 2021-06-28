@@ -128,11 +128,17 @@ export default class Step extends Component {
 
     const stepContent = icon ? <img src={icon} alt={index + 1} /> : index + 1;
 
+    if(typeof onClick == "function") { 
+      circleStyle["cursor"]="pointer" ;
+    } else{ 
+      circleStyle["cursor"]="auto";
+    }
+    
     return (
       <div style={ styles.step }>
-        <div style={ circleStyle }>
+        <div style={ circleStyle } onClick={onClick}>
         {active || completed ? (
-          <a href={href} onClick={onClick} style={ styles.index }>{ stepContent }</a>
+          <a href={href} style={ styles.index }>{ stepContent }</a>
         ) : (
           <span style={ styles.index }>{ stepContent }</span>
         )}
