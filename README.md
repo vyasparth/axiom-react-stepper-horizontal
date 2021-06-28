@@ -3,9 +3,9 @@ Well-designed stepper component for react
 
 ## Installation
 ```
-npm install react-stepper-horizontal --save
+npm install axiom-react-stepper-horizontal --save
 ```
-Then just add `import Stepper from 'react-stepper-horizontal';` into your file.
+Then just add `import Stepper from 'axiom-react-stepper-horizontal';` into your file.
 
 ## Screenshot
 <img src="https://github.com/vyasparth/axiom-react-stepper-horizontal/blob/main/example/example.png" width="600" />
@@ -71,7 +71,7 @@ See full example [here](https://github.com/vyasparth/axiom-react-stepper-horizon
 
 ## Author
 
-InJung Chung / [@mu29](http://mu29.github.io/)
+Parth Vyas / [@vyasparth]
 
 ## License
 
